@@ -65,6 +65,8 @@ Notes and TO-DOs
   store the service provider API into an array of function pointer. We
   distribute the user request evenly to all the service provider we have.
 * Automated tests are implemented for testing mailgun APIs.
+* Cross-Browser compatibility is not well tested. All tests are done in
+  Chrome.
 
 Link to my resume and other projects
 ------------------------------------
