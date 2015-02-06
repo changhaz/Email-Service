@@ -62,7 +62,7 @@ Notes and TO-DOs
   return to the PHP informing that the send has failed. Otherwise we return
   succeed. PHP use this response to render the page to user.
 * Simple automated tests are implemented for both APIs.
-* Cross-Browser compatibility is not well tested. All tests are done in
+* Cross-Browser compatibility is not well supported. All tests are done in
   Chrome.
 * TO-DO: create a Round Robin mechanism for service failover. We could
   store the service provider API into an array of function pointer. We
@@ -81,6 +81,9 @@ Link to to the hosted application
 
 [mymail.zhengchanghai.com](http://mymail.zhengchanghai.com/)
 
+Note:
+* Cross-Browser compatibility is not well supported. All tests are done in
+  Chrome.
 
 
     
