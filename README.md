@@ -81,8 +81,8 @@ Link to to the hosted application
 
 [mymail.zhengchanghai.com](http://mymail.zhengchanghai.com/)
 
-* Note: cross-browser compatibility is not well supported. All tests are done in
-  Chrome.
+Note: cross-browser compatibility is not well supported. All tests are done in
+      Chrome.
 
 
     
