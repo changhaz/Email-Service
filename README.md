@@ -10,8 +10,8 @@ The problem
 The goal of this project is to create a service that accepts the necessary
 information and sends emails.
 
-One pre-defined requirement of this email service is, it should provide an
-abstraction between two different email service providers: if one of the
+One pre-defined requirement for this email service is, it should provide an
+abstraction between two different email service providers. If one of the
 service provider goes down, this email service can quickly failover to a
 different provider without affecting users.
 
@@ -20,22 +20,22 @@ My solution
 
 To meet the above requirements, the system is build in the following way:
 
-* Front-end we have a form in HTML file for user input.
-* We have javascript and CSS file to do user input validation.
+* Front-end page have a form for user input.
+* We have javascript for user input validation.
 * When user gives validate information and submit the form, a PHP script
   is run.
 * The PHP script passes the parameter to another Python script to send mail.
 * The Python script calls API from the main email service provider and keep
-  track of the response. If send fails, API from the second service provider
+  track of the response. If send fails, the second service provider's API
   will be called.
 * The PHP script checks the output of the Python file and render the page
-  accordingly.
+  accordingly to user.
 
-Whether the solution focuses on back-end, front-end or if it's full stack
+Back-end, front-end or full stack?
 -------------------------------------------------------------------------
 
 The project itself could be more back-end. My solution addressed the
-backend requirements and also use some front-end technologies to provide
+backend requirements as well as using some front-end technologies to provide
 better user experience and keep code well structured. So I think it could
 be some kind of full stack.
 
@@ -74,12 +74,12 @@ Notes and TO-DOs
 Link to my resume and other projects
 ------------------------------------
 
-[My homepage](http://zhengchanghai.com/)
+[Changhai's homepage](http://zhengchanghai.com/)
 
 Link to to the hosted application
 ---------------------------------
 
-[http://mymail.zhengchanghai.com](http://mymail.zhengchanghai.com/)
+[mymail.zhengchanghai.com](http://mymail.zhengchanghai.com/)
 
 
 
