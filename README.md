@@ -61,12 +61,15 @@ Notes and TO-DOs
   We catch client error, server error and other error if there's any, and
   return to the PHP informing that the send has failed. Otherwise we return
   succeed. PHP use this response to render the page to user.
-* One TO-DO for the failover is to create a Round Robin mechanism. We could
-  store the service provider API into an array of function pointer. We
-  distribute the user request evenly to all the service provider we have.
-* Automated tests are implemented for testing mailgun APIs.
+* Simple automated tests are implemented for both APIs.
 * Cross-Browser compatibility is not well tested. All tests are done in
   Chrome.
+* TO-DO: create a Round Robin mechanism for service failover. We could
+  store the service provider API into an array of function pointer. We
+  distribute the user request evenly to all the service provider we have.
+* TO-DO: create a mechanism to limit each user's sending frequency. One
+  possible implementation is to detect user IP, store the send count
+  into database so as to limit the usage.
 
 Link to my resume and other projects
 ------------------------------------
