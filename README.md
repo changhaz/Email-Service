@@ -79,7 +79,7 @@ Link to my resume and other projects
 Link to to the hosted application
 ---------------------------------
 
-[MyMail](http://mymail.zhengchanghai.com/)
+[http://mymail.zhengchanghai.com](http://mymail.zhengchanghai.com/)
 
 
 
