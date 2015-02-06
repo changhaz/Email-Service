@@ -1,0 +1,151 @@
+/*-------------------------
+    Simple reset
+--------------------------*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/*-------------------------
+    General Styles
+--------------------------*/
+
+
+html{
+    background-color:#edf0f4;
+}
+
+body{
+    font:15px/1.3 Arial, sans-serif;
+    color: #4f4f4f;
+}
+
+a, a:visited {
+    outline:none;
+    color:#389dc1;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+section, footer, header, aside{
+    display: block;
+}
+
+
+/*----------------------------
+    The main content element
+-----------------------------*/
+
+
+#main{
+    padding:50px;
+    background-color:#fff;
+    box-shadow:0 0 1px #ccc;
+    width:700px;
+    margin:50px auto;
+    border-radius:6px;
+    font:bold 24px/1 'PT Sans', sans-serif;
+    color:#6b6b6b;
+}
+
+
+#main h1{
+	font-family: 'Lobster', cursive;
+	font-size:50px;
+    text-align: center;
+    padding: 10px 0 40px;
+
+}
+
+#main h6{
+	font-family: 'Quicksand', sans-serif;
+	font-size:15px;
+	text-align: center;
+	position: relative;
+	top: -30px;
+}
+
+#services{
+    list-style:none;
+    margin:0 auto;
+    width:650px;
+}
+
+#services li{
+    background-color: #fbfbfc;
+    box-shadow:0 1px 1px #eee;
+    font-size:18px;
+    color: #85898b;
+    padding:22px 30px;
+    margin-bottom:15px;
+    border-radius:4px;
+}
+
+#services li span[class=title]{
+    opacity:0.8;
+	font-size:15px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#services li div[class=notification]{
+    font-size:12px;
+    font-family: 'Quicksand', sans-serif;
+    color: red;
+}
+
+#services li input[type=text]{
+    border:0px solid #ccc;
+    box-shadow:1px 1px 1px #ccc;
+    width:100%;
+    height:30px;
+    display:inline-block;
+    vertical-align: middle;
+    margin-top:8px;
+    font-size:15px;
+	padding-left:7px;
+	padding-right:7px;
+}
+
+#services li textarea{
+    border:0px solid #ccc;
+    box-shadow:1px 1px 1px #ccc;
+    width:100%;
+    height:180px;
+    cols:10;
+    rows:10;
+    display:inline-block;
+    resize: vertical;
+    margin-top:8px;
+    font-size:15px;
+	padding:7px;
+}
+
+#send{
+    font:inherit;
+    font-size:18px;
+    cursor:pointer;
+    border:none;
+    display:block;
+    background-color:#EAEFFF;
+    color:#fff;
+    text-transform:uppercase;
+    width:100px;
+    margin:60px auto 30px;
+    text-align:center;
+    padding:11px 0;
+    border-radius: 3px;
+}
+
+#send:hover{
+    opacity: 0.9;
+}
+
+#feedback{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
