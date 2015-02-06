@@ -12,9 +12,8 @@ def send_by_sendgrid(addr_to, addr_from, subject, text):
 
     message = sendgrid.Mail()
     message.add_to('<' + addr_to + '>')
-    message.set_subject("'" + subject + "'")
-    message.set_html('')
-    message.set_text("'" + text + "'")
+    message.set_subject(subject)
+    message.set_text(text)
     message.set_from('<' + addr_from + '>');
 
     try:
